@@ -98,14 +98,6 @@
     <Resource Include="Resources\Images\document-new.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Images\OpenFile_16x.png" />
-    <Resource Include="Resources\Images\SaveAs_16x.png" />
-    <Resource Include="Resources\Images\Save_16x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\Images\Document_16x.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\Images\document-open.png" />
     <Resource Include="Resources\Images\document-print.png" />
     <Resource Include="Resources\Images\document-save-as.png" />

@@ -23,7 +23,7 @@
             <!-- Menu -->
             
             <Menu Name="menuMain" IsMainMenu="True" Padding="0,2" >
-                <MenuItem Header="_File " Name="menuFile" >
+                <MenuItem Header="_File" Name="menuFile" >
                     <MenuItem Header="New" Name="menuNew" >
                         <MenuItem.Icon>
                             <Image Source="./Resources/Images/document-new.png"></Image>
@@ -50,7 +50,7 @@
                     <Separator/>
                     <MenuItem Header="Exit" Name="menuExit" />
                 </MenuItem>
-                <MenuItem Header="_Edit " Name="menuEdit">
+                <MenuItem Header="_Edit" Name="menuEdit">
                     <MenuItem Header="Undo" Name="menuUndo">
                         <MenuItem.Icon>
                             <Image Source="./Resources/Images/edit-redo.png" />
@@ -84,8 +84,22 @@
                         </MenuItem.Icon>
                     </MenuItem>
                 </MenuItem>
-                <MenuItem Header="_View " Name="menuView" />
-                <MenuItem Header="_Help " Name="menuHelp" />
+                <MenuItem Header="_Search" Name="menuSearch">
+                    <MenuItem Header="Find..." Name="menuFind">
+                        <MenuItem.Icon>
+                            <Image Source="./Resources/Images/edit-find.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Find Next" Name="menuFindNext">
+                    </MenuItem>
+                    <MenuItem Header="Find Previous" Name="menuFindPrevious">
+                    </MenuItem>
+                    <MenuItem Header="Replace" Name="menuReplace">
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Help" Name="menuHelp">
+                    <MenuItem Header="About MD Editor" Name="menuHelpAbout" />
+                </MenuItem>
             </Menu>
             
             <!-- ToolBars -->
