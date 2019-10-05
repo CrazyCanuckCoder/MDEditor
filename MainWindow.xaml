@@ -48,6 +48,12 @@
                     <Separator/>
                     <MenuItem Header="Close" Name="menuClose" />
                     <Separator/>
+                    <MenuItem Header="Print..." Name="menuPrint">
+                        <MenuItem.Icon>
+                            <Image Source="./Resources/Images/document-print.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator/>
                     <MenuItem Header="Exit" Name="menuExit" />
                 </MenuItem>
                 <MenuItem Header="_Edit" Name="menuEdit">
@@ -94,7 +100,7 @@
                     </MenuItem>
                     <MenuItem Header="Find Previous" Name="menuFindPrevious">
                     </MenuItem>
-                    <MenuItem Header="Replace" Name="menuReplace">
+                    <MenuItem Header="Replace..." Name="menuReplace">
                     </MenuItem>
                 </MenuItem>
                 <MenuItem Header="_Help" Name="menuHelp">
@@ -118,6 +124,11 @@
                     <Button x:Name="toolBarButtonSaveAs" ToolTip="SaveAs">
                         <Image Source="./Resources/Images/document-save-as.png" Style="{StaticResource ToolbarButtonImage}"></Image>
                     </Button>
+                    <Separator />
+                    <Button x:Name="toolBarButtonPrint" ToolTip="Print...">
+                        <Image Source="./Resources/Images/document-print.png" Style="{StaticResource ToolbarButtonImage}"></Image>
+                    </Button>
+                    <Separator />
                     <Button x:Name="toolBarButtonExit" ToolTip="Exit">
                         <Image></Image>
                     </Button>
